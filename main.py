@@ -12,4 +12,6 @@ class MainApp(App):
   def build(self):
       return RootWidget()
 
+class N:
+  pass
 MainApp().run()
