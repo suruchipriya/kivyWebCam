@@ -24,4 +24,8 @@ class Prince:
     pass
 
 
+class Review:
+    pass
+
+
 MainApp().run()
