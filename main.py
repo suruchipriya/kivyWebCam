@@ -1,17 +1,27 @@
 from kivy.app import App
 from kivy.uix.screenmanager import ScreenManager, Screen
 
+
 class FirstScreen(Screen):
-  def searchImage(self):
-    pass
+    def searchImage(self):
+        pass
+
 
 class RootWidget(ScreenManager):
-  pass
+    pass
+
 
 class MainApp(App):
-  def build(self):
-      return RootWidget()
+    def build(self):
+        return RootWidget()
+
 
 class N:
-  pass
+    pass
+
+
+class Prince:
+    pass
+
+
 MainApp().run()
